@@ -102,11 +102,15 @@ A portfolio is a vital tool for professionals in various fields, including desig
 
 <div>
     <p style="display:flex; justify-content: start; align-items: center;">
-        <img src="https://img.shields.io/badge/-GFG-darkgreen.svg" alt="J-Query" style="margin-right:1rem">
-        <img src="https://img.shields.io/badge/-Leetcode-black.svg" alt="J-Query" style="margin-right:1rem">
         <a href="https://auth.geeksforgeeks.org/user/vrajpatel4801">
-        <img src="https://img.shields.io/badge/-Hackerrank-lightgreen.svg" alt="J-Query" style="margin-right:1rem">
-        <a>
+            <img src="https://img.shields.io/badge/-GFG-darkgreen.svg" alt="J-Query" style="margin-right:1rem">
+        </a>        
+        <a href="https://leetcode.com/vrajpatel010/">
+            <img src="https://img.shields.io/badge/-Leetcode-black.svg" alt="J-Query" style="margin-right:1rem">
+        </a>        
+        <a href="https://www.hackerrank.com/vrajpatel10">
+            <img src="https://img.shields.io/badge/-Hackerrank-lightgreen.svg" alt="J-Query" style="margin-right:1rem">
+        </a>
     </p>
 </div>
 
