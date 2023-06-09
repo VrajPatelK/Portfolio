@@ -35,6 +35,17 @@ A portfolio is a vital tool for professionals in various fields, including desig
 
 #### Skills
 
+##### Programming (Core Langauge C++)
+
+
+<div>
+    <p style="display:flex; justify-content: start; align-items: center;">
+        <img src="https://img.shields.io/badge/-C-1572B6.svg" alt="CSS" style="margin-right:1rem">
+        <img src="https://img.shields.io/badge/-C++-1572B6.svg" alt="CSS" style="margin-right:1rem">
+        <img src="https://img.shields.io/badge/-Java-red.svg" alt="JavaScript" style="margin-right:1rem">
+    </p>
+</div>
+
 ##### Frontend Developemnt
 
 <div>
@@ -50,7 +61,7 @@ A portfolio is a vital tool for professionals in various fields, including desig
 
 <div>
     <p style="display:flex; justify-content: start; align-items: center;">
-        <img src="https://img.shields.io/badge/-Node.js-green.svg" alt="Node.js" style="margin-right:1rem">
+        <img src="https://img.shields.io/badge/-Node.js-darkgreen.svg" alt="Node.js" style="margin-right:1rem">
         <img src="https://img.shields.io/badge/-php-1572B6.svg" alt="CSS" style="margin-right:1rem">
     </p>
 </div>
@@ -60,7 +71,7 @@ A portfolio is a vital tool for professionals in various fields, including desig
 
 <div>
     <p style="display:flex; justify-content: start; align-items: center;">
-        <img src="https://img.shields.io/badge/-MongoDB-green.svg" alt="MongoDB" style="margin-right:1rem">
+        <img src="https://img.shields.io/badge/-MongoDB-dargreen.svg" alt="MongoDB" style="margin-right:1rem">
          <img src="https://img.shields.io/badge/-MySQL-563D7C.svg" alt="Bootstrap" style="margin-right:1rem">
     </p>
 
@@ -84,6 +95,18 @@ A portfolio is a vital tool for professionals in various fields, including desig
     <p style="display:flex; justify-content: start; align-items: center;">
         <img src="https://img.shields.io/badge/-Github-black.svg" alt="J-Query" style="margin-right:1rem">
         <img src="https://img.shields.io/badge/-Postman--API-red.svg" alt="J-Query" style="margin-right:1rem">
+    </p>
+</div>
+
+##### Coding Platforms
+
+<div>
+    <p style="display:flex; justify-content: start; align-items: center;">
+        <img src="https://img.shields.io/badge/-GFG-darkgreen.svg" alt="J-Query" style="margin-right:1rem">
+        <img src="https://img.shields.io/badge/-Leetcode-black.svg" alt="J-Query" style="margin-right:1rem">
+        <a href="https://auth.geeksforgeeks.org/user/vrajpatel4801">
+        <img src="https://img.shields.io/badge/-Hackerrank-lightgreen.svg" alt="J-Query" style="margin-right:1rem">
+        <a>
     </p>
 </div>
 
