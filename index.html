@@ -10,25 +10,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Bootstrap call modal by js -->
+    <!-- Bootstrap js -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- Bootstrap call modal by js -->
+    <!-- Bootstrap js -->
 
     <!-- to give permission font-awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link rel="stylesheet" href="./CSS/navbar.css">
-    <link rel="stylesheet" href="./CSS/index.css">
-    <link rel="stylesheet" href="./CSS/about.css">
-    <link rel="stylesheet" href="./CSS/media.css">
-    <link rel="stylesheet" href="./CSS/skill.css">
-    <link rel="stylesheet" href="./CSS/contact.css">
-    <link rel="stylesheet" href="./CSS/footer.css"> -->
+
+    <!-- custom css -->
     <link rel="stylesheet" href="./CSS/main.css">
     <title>Vraj Patel</title>
+
 </head>
 <style>
 </style>
@@ -36,7 +32,7 @@
 <body>
 
     <nav class="navbar navbar-expand">
-        <div class="container row mx-auto px-1">
+        <div class="container row mx-auto px-1 nav-item-div">
             <ul class="navbar-nav mx-auto px-2 py-2">
                 <li class="nav-item mx-2">
                     <a class=" nav-link active nav-a selected-a" aria-current="page" href="#index">
@@ -51,6 +47,10 @@
                         <i class="fa-solid fa-laptop-code"></i></a>
                 </li>
                 <li class="nav-item mx-2">
+                    <a class="nav-link active nav-a" aria-current="page" href="#project">
+                        <i class="fa-solid fa-diagram-project"></i></a>
+                </li>
+                <li class="nav-item mx-2">
                     <a class="nav-link active nav-a" aria-current="page" href="#contact">
                         <i class=" fa-solid fa-square-phone"></i></a>
                 </li>
@@ -61,6 +61,7 @@
             </ul>
         </div>
     </nav>
+
     <section class="py-xl-auto pb-5" id="index">
         <div class="container-fluid row mx-auto px-0">
             <div class="col-12" id="first">
@@ -78,10 +79,10 @@
                         <p class="my-1 p-0">Web Developer</p>
                     </div>
                     <div class="my-3" id="index_btnDiv">
-                        <a type="button" class="btn mx-2" id="resume" href="./Images/Vraj_Patel-Resume.pdf" download>
+                        <a type="button" class="btn mx-2 btn-type-1" href="./Images/Vraj_Patel-Resume.pdf" download>
                             Download Resume &emsp13;<i class="fa-solid fa-file-arrow-down"></i>
                         </a>
-                        <a type="button" class="btn mx-2" id="talk1" href="https://wa.me/918732937702/"
+                        <a type="button" class="btn mx-2 btn-type-2" href="https://wa.me/918732937702/"
                             target="_blank">Let's Talk</a>
                     </div>
                 </div>
@@ -164,7 +165,7 @@
                         </p>
                     </div>
                     <div class="mt-4 px-md-0 px-3" id="about_btnDiv">
-                        <a type="button" class="btn" id="talk2" href="https://wa.me/918732937702/" target="_blank">
+                        <a type="button" class="btn btn-type-2" href="https://wa.me/918732937702/" target="_blank">
                             Let's Talk
                         </a>
                     </div>
@@ -174,7 +175,7 @@
     </section>
 
     <section class="py-xl-auto py-5" id="skill">
-        <div class="container-fluid row mx-auto">
+        <div class="container-fluid row mx-auto px-md-3 px-2">
             <div class="container mb-5" id="skillHeadDiv">
                 <p class="my-1 p-0">I Have This</p>
                 <h3 class="my-1 p-0">
@@ -182,140 +183,240 @@
                 </h3>
             </div>
             <div class="container row mx-auto px-0 py-2" id="skill-cardDiv">
+
                 <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 skill-card-container">
                     <div class="card mb-3">
-                        <div class=" card-header">Competitive Coding</div>
-                        <div class="card-body">
-                            <div class="itemDiv">
-                                <ul class="px-sm-auto px-0">
-                                    <li>C , C++, JAVA , Advance JAVA</li>
-                                    <li>My Core Language :- C++</li>
-                                    <li class="mt-3">DSA </li>
-                                    <div class="progress"
-                                        style="height: .8rem;background: rgb(123, 122, 122);box-shadow: inset 4px 3px 16px -3px rgba(0,0,0,0.51);">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                            aria-valuemin="0" aria-valuemax="100"
-                                            style="width: 70%;background: rgb(255, 255, 255);color: #000452;font-weight: 600;">
-                                            70%
-                                        </div>
-                                    </div>
-                                </ul>
-                            </div>
+                        <div class=" card-header">Programming &nbsp; (Core Language C++)</div>
+
+                        <div class="card-body" id="anch-container">
+                            <img src="./Images/c.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/cpp.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/java.png" alt="load..." width="50px" height="50px">
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 skill-card-container">
                     <div class="card mb-3">
                         <div class=" card-header">Frontend Development</div>
-                        <div class="card-body">
-                            <div class="itemDiv">
-                                <ul class="px-sm-auto px-0">
-                                    <li class="mt-2">HTML</li>
-                                    <div class="progress"
-                                        style="height: .8rem;background: rgb(123, 122, 122);box-shadow: inset 4px 3px 16px -3px rgba(0,0,0,0.51);">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="95"
-                                            aria-valuemin="0" aria-valuemax="100"
-                                            style="width: 95%;background: rgb(255, 255, 255);color: #000452;font-weight: 600;">
-                                            95%
-                                        </div>
-                                    </div>
-                                    <li class="mt-2">CSS</li>
-                                    <div class="progress"
-                                        style="height: .8rem;background: rgb(123, 122, 122);box-shadow: inset 4px 3px 16px -3px rgba(0,0,0,0.51);">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80"
-                                            aria-valuemin="0" aria-valuemax="100"
-                                            style="width: 80%;background: rgb(255, 255, 255);color: #000452;font-weight: 600;">
-                                            80%
-                                        </div>
-                                    </div>
-                                    <li class="mt-2">JS</li>
-                                    <div class="progress"
-                                        style="height: .8rem;background: rgb(123, 122, 122);box-shadow: inset 4px 3px 16px -3px rgba(0,0,0,0.51);">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85"
-                                            aria-valuemin="0" aria-valuemax="100"
-                                            style="width: 85%;background: rgb(255, 255, 255);color: #000452;font-weight: 600;">
-                                            85%
-                                        </div>
-                                    </div>
-                                </ul>
-                            </div>
+
+                        <div class="card-body" id="anch-container">
+                            <img src="./Images/HTML.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/CSS.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/JS.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/EJS.png" alt="load..." width="60px" height="50px">
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 skill-card-container">
                     <div class="card mb-3">
                         <div class=" card-header">Backend Development</div>
-                        <div class="card-body">
-                            <div class="itemDiv">
-                                <ul class="px-sm-auto px-0">
-                                    <li>PHP</li>
-                                    <li>My SQL</li>
-                                    <li>Php MyAdmin</li>
-                                    <div class="progress mt-3"
-                                        style="height: .8rem;background: rgb(123, 122, 122);box-shadow: inset 4px 3px 16px -3px rgba(0,0,0,0.51);">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
-                                            aria-valuemin="0" aria-valuemax="100"
-                                            style="width: 90%;background: rgb(255, 255, 255);color: #000452;font-weight: 600;">
-                                            90%
-                                        </div>
-                                    </div>
-                                </ul>
-                            </div>
+                        <div class="card-body" id="anch-container">
+                            <img src="./Images/node.png" alt="load..." width="65px" height="50px">
+                            <img src="./Images/php.png" alt="load..." width="50px" height="50px">
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 skill-card-container">
+                    <div class="card mb-3">
+                        <div class=" card-header">Database</div>
+                        <div class="card-body" id="anch-container">
+                            <img src="./Images/mySql.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/mongoDB.png" alt="load..." width="50px" height="50px">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 skill-card-container">
                     <div class="card mb-3">
                         <div class=" card-header">Frameworks</div>
-                        <div class="card-body">
-                            <div class="itemDiv">
-                                <ul class="px-sm-auto px-0">
-                                    <li class="mt-2">Bootstrap 5.0</li>
-                                    <div class="progress"
-                                        style="height: .8rem;background: rgb(123, 122, 122);box-shadow: inset 4px 3px 16px -3px rgba(0,0,0,0.51);">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80"
-                                            aria-valuemin="0" aria-valuemax="100"
-                                            style="width: 80%;background: rgb(255, 255, 255);color: #000452;font-weight: 600;">
-                                            80%
-                                        </div>
-                                    </div>
-                                    <li class="mt-2">Materialize</li>
-                                    <div class="progress"
-                                        style="height: .8rem;background: rgb(123, 122, 122);box-shadow: inset 4px 3px 16px -3px rgba(0,0,0,0.51);">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="60"
-                                            aria-valuemin="0" aria-valuemax="100"
-                                            style="width: 60%;background: rgb(255, 255, 255);color: #000452;font-weight: 600;">
-                                            60%
-                                        </div>
-                                    </div>
-                                </ul>
-                            </div>
+                        <div class="card-body" id="anch-container">
+                            <img src="./Images/bootstrap.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/expJs.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/mongoose.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/angular.png" alt="load..." width="60px" height="50px">
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 skill-card-container">
                     <div class="card mb-3">
-                        <div class=" card-header">Competitive Coding Platforms</div>
+                        <div class=" card-header">Tools</div>
                         <div class="card-body" id="anch-container">
-                            <a class="anch-img" href="https://www.codechef.com/users/vrajpatel010" target="_blank">
-                                <img src="./Images/codechef-2.png" alt="codechef-img" width="50px" height="50px">
-                            </a>
-                            <a class="anch-img" href="https://www.hackerrank.com/vrajpatel10" target="_blank">
-                                <img src="./Images/hackerrank.png" alt="hackerrank-img" width="50px" height="50px">
+                            <img src="./Images/github.png" alt="load..." width="50px" height="50px">
+                            <img src="./Images/PAPI.png" alt="load..." width="50px" height="50px">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 skill-card-container">
+                    <div class="card mb-3">
+                        <div class=" card-header">Coding Platforms</div>
+                        <div class="card-body" id="anch-container">
+                            <a class="anch-img" href="https://auth.geeksforgeeks.org/user/vrajpatel4801"
+                                target="_blank">
+                                <img src="./Images/gfg.png" alt="load..." width="50px" height="50px">
                             </a>
                             <a class="anch-img" href="https://leetcode.com/vrajpatel010/" target="_blank">
-                                <img src="./Images/leetcode.png" alt="leetcode-img" width="50px" height="50px">
+                                <img src="./Images/leetcode.png" alt="load..." width="50px" height="50px">
+                            </a>
+                            <a class="anch-img" href="https://www.hackerrank.com/vrajpatel10" target="_blank">
+                                <img src="./Images/hackerrank.png" alt="load..." width="50px" height="50px">
                             </a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
+    <section class="py-xl-auto py-5" id="project">
+        <div class="container-fluid row mx-auto px-md-3 px-2">
+            <div class="container mb-5" id="projectHeadDiv">
+                <p class="my-1 p-0">I Have These</p>
+                <h3 class="my-1 p-0">
+                    Projects
+                </h3>
+            </div>
+
+            <div class="container row mx-auto px-0 py-2" id="project-cardDiv">
+
+                <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 project-card-container">
+                    <div class="card mb-3">
+                        <div class="card-header project-card-header">
+                            <h4>Verifyit</h4>
+                        </div>
+                        <div class="card-body" id="">
+                            <div class="project-image-div">
+                                <img src="Images/verifyit.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body px-0">
+                                <p class="card-text project-para">VerifyIt is a mobile application which helps faculty
+                                    to verify students who are sitted in examination hall. On the other hand admin/exam
+                                    dept. head (Web based interface) can assign various blocks to different different
+                                    faculties and in turn each faculty can verify blocks assigned to them.
+
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center project-btns mt-5">
+
+                                    <a href="https://github.com/my1243/verifyIt-Hackprints" target="_blank"
+                                        class="btn btn-type-3 me-md-2 col-md-4 col-5">
+                                        Github &nbsp; <i class="fa-brands fa-github fa-flip"></i>
+                                    </a>
+                                    <!-- <a href="#" class="btn btn-type-2 col-md-4 col-5" target="_blank">
+                                        Live &nbsp; <i class="fa-brands fa-telegram fa-spin"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 project-card-container">
+                    <div class="card mb-3">
+                        <div class="card-header project-card-header">
+                            <h4>Shree Sahajanand Furniture <br> Web Application</h4>
+                        </div>
+                        <div class="card-body" id="">
+                            <div class="project-image-div">
+                                <img src="Images/ssf.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body px-0">
+                                <p class="card-text project-para">
+                                    This is a web application project aimed at creating a successful online platform for
+                                    a furniture company to showcase products, sell them to potential users, and increase
+                                    sales.The application will have an attractive and user-friendly design, a product
+                                    catalog with a shopping cart and secure payment gateway, search functionality, and
+                                    user reviews.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center project-btns mt-5">
+
+                                    <a href="https://github.com/VrajPatelK/SHREE-SAHAJANAND-FURNITURE" target="_blank"
+                                        class="btn btn-type-3 me-md-2 col-md-4 col-5">
+                                        Github &nbsp; <i class="fa-brands fa-github fa-flip"></i>
+                                    </a>
+                                    <!-- <a href="#" class="btn btn-type-2 col-md-4 col-5" target="_blank">
+                                        Live &nbsp; <i class="fa-brands fa-telegram fa-spin"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 project-card-container">
+                    <div class="card mb-3">
+                        <div class="card-header project-card-header">
+                            <h4>Covid-19 API Web-App</h4>
+                        </div>
+                        <div class="card-body" id="">
+                            <div class="project-image-div">
+                                <img src="Images/covid-19.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body px-0">
+                                <p class="card-text project-para">
+                                    This project is an AngularJS web application that fetches data from an online
+                                    COVID-19 API using routing.
+                                    Routing done based on country name . User can search the country name and get the
+                                    details about it.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center project-btns mt-5">
+
+                                    <a href="https://github.com/VrajPatelK/covid19-api-webapp" target="_blank"
+                                        class="btn btn-type-3 me-md-2 col-md-4 col-5">
+                                        Github &nbsp; <i class="fa-brands fa-github fa-flip"></i>
+                                    </a>
+                                    <a href="https://covid19-api-webapp.netlify.app/"
+                                        class="btn btn-type-2 col-md-4 col-5" target="_blank">
+                                        Live &nbsp; <i class="fa-brands fa-telegram fa-spin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5 mx-md-4 col-sm-10 col-12 my-2 px-0 project-card-container">
+                    <div class="card mb-3">
+                        <div class="card-header project-card-header">
+                            <h4>Covid-19 API Web-App</h4>
+                        </div>
+                        <div class="card-body" id="">
+                            <div class="project-image-div">
+                                <img src="Images/egov.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body px-0">
+                                <p class="card-text project-para">
+                                    The intention to make this project was to make egov student portal more attractive
+                                    and colourfull by using REACT App as a frontend and Tailwind as a css.
+                                    Here, we include our home page, fees voucher page, exam result page. For the hall
+                                    ticket page, we have included information about hall ticket along with download
+                                    functionality.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center project-btns mt-5">
+
+                                    <a href="https://github.com/my1243/egovportal" target="_blank"
+                                        class="btn btn-type-3 me-md-2 col-md-4 col-5">
+                                        Github &nbsp; <i class="fa-brands fa-github fa-flip"></i>
+                                    </a>
+                                    <!-- <a href="#"
+                                        class="btn btn-type-2 col-md-4 col-5" target="_blank">
+                                        Live &nbsp; <i class="fa-brands fa-telegram fa-spin"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
     <section class="py-xl-auto py-5" id="contact">
-        <div class="container-fluid row mx-auto">
-            <div class="container mb-5" id="skillHeadDiv">
+        <div class="container-fluid row mx-auto px-md-3 px-2">
+            <div class="container mb-5" id="contactHeadDiv">
                 <p class="my-1 p-0">Get In Touch</p>
                 <h3 class="my-1 p-0">
                     Contact Me
@@ -390,7 +491,7 @@
                                 rows="5" placeholder="Your Message ..." required></textarea>
                         </div>
                         <div class="col-lg-10 col-md-11 col-12 my-3 contact-btnDiv">
-                            <button type="submit" name="submit" class="btn" id="contact-submit" name="contact_submit">
+                            <button type="submit" name="submit" class="btn btn-type-3" name="contact_submit">
                                 Do in touch
                             </button>
                         </div>
@@ -468,7 +569,6 @@
         /*to _blank inputs*/
         document.getElementById("contact-form").onsubmit = () => {
             setTimeout(() => {
-                console.log("Hello");
                 document.getElementById("contact_name").value = "";
                 document.getElementById("contact_email").value = "";
                 document.getElementById("contact_msg").value = "";
